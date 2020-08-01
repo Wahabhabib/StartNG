@@ -1,0 +1,368 @@
+@font-face {
+  font-family: Averta-Bold;
+  src: url(../fonts/Averta/Averta-Black.woff);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: Averta-Bold !important;
+  /* overflow-x: hidden; */
+}
+/* font family */
+
+/* utilities */
+.general-btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #e7332b;
+  padding: 11px 28px;
+  border-radius: 0px !important;
+}
+/* nav bar */
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f2ebe9;
+}
+.navbar-brand {
+  /* font-weight: 900; */
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+}
+.dot {
+  font-size: 44px;
+  line-height: 24px;
+  color: #e7332b;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-color: #e7332b !important;
+}
+.nav-item {
+  margin-right: 61px;
+}
+.nav-item .nav-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #514949;
+}
+
+/* header */
+.top-header {
+  background: #f2ebe9;
+  padding-bottom: 78px;
+}
+.header-group-text {
+  width: 430px;
+  margin: 200px auto 0px auto;
+}
+.header-title {
+  font-size: 32px;
+  line-height: 48px;
+  color: #514949;
+}
+.header-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+.img-col-1 img,
+.img-col-2 img {
+  margin-bottom: 23px;
+}
+.img-col-1 {
+  margin-top: 150px;
+}
+.img-col-2 {
+  margin-top: 85px;
+}
+.partener {
+  margin-top: 62px;
+}
+.partener .partener-logo {
+  margin-right: 150px;
+}
+
+/* curiculum */
+.curiculum {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.curiculum-header {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  text-transform: uppercase;
+}
+.curiculum-title {
+  font-size: 24px;
+  line-height: 40px;
+  color: #514949;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.curiculum-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+.curiculum-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 78px;
+  margin-bottom: 81px;
+}
+.curiculum-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 195px;
+  width: 175px;
+  padding: 24px;
+}
+.card-1 {
+  background: #f0f6f7;
+}
+.card-2 {
+  background: #f2ebe9;
+}
+.card-3 {
+  background: #dcf4f8;
+}
+.card-4 {
+  background: #ffe3e1;
+}
+.card-5 {
+  background: #f0dcf8;
+}
+.card-6 {
+  background: #effff4;
+}
+.curiculum-card-body {
+  height: 100%;
+  margin-top: auto;
+  display: flex;
+}
+.curiculum-card-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+
+/* scope */
+.scope {
+  background: #f2ebe9;
+  padding-top: 104px;
+  padding-bottom: 104px;
+  /* opacity: 0.6; */
+}
+.scope-header {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  text-transform: uppercase;
+}
+.scope-title {
+  font-size: 24px;
+  line-height: 40px;
+  color: #514949;
+  margin-top: 16px;
+}
+.stack-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.stack-card-wrapper .card {
+  border: none;
+  margin-top: 48px;
+  margin-right: 16px;
+  width: 350px;
+  height: 280px;
+}
+.stack-card-wrapper .card-title {
+  font-size: 18px;
+  line-height: 28px;
+  color: #514949;
+}
+.stack-card-wrapper .card-text {
+  margin-top: 28px;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.9;
+}
+.stack-card-wrapper .line {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.stack-card-wrapper .language-used {
+  font-size: 14px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.5;
+}
+
+/* Mentprs */
+.mentors {
+  padding-top: 114px;
+}
+.mentors-header {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  text-transform: uppercase;
+}
+.mentors-title {
+  font-size: 24px;
+  line-height: 40px;
+  color: #514949;
+  margin-top: 16px;
+}
+.mentors-card {
+  margin-top: 88px;
+}
+.mentors .card {
+  border: none;
+}
+.mentors .mentor-name {
+  font-size: 18px;
+  line-height: 28px;
+}
+.mentors .mentor-stack {
+  font-size: 16px;
+  line-height: 24px;
+}
+.mentors .card-body {
+  padding-left: 0px;
+}
+.enroll-now {
+  margin-top: 200px;
+  margin-bottom: 114px;
+  color: white;
+}
+.bg-enroll {
+  background-image: url(../img/dark-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 342px;
+  text-align: center;
+}
+.tech {
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 48px;
+}
+
+/* footer */
+
+footer .footer-logo {
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+footer .footer-headings {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 24px;
+}
+
+footer .list-links {
+  list-style: none;
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+}
+footer .fa-facebook-square {
+  color: #475993;
+}
+footer .fa-twitter {
+  color: #76a9ea;
+  margin-left: 16px;
+}
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .header-group-text {
+    width: fit-content;
+  }
+  .partener .partener-logo {
+    margin-right: 110px;
+  }
+  .stack-card-wrapper .card {
+    width: 310px;
+  }
+  footer .copywrite {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header-group-text {
+    margin-top: 72px;
+    width: 100%;
+  }
+  .header-title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .header-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .partener .partener-logo {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .partener .partener-logo img {
+    width: 30%;
+  }
+  .curiculum-card-wrapper {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .curiculum-card {
+    margin-right: 15px;
+  }
+  .stack-card-wrapper {
+    /* display: inline  */
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+  }
+  .stack-card-wrapper .card {
+    width: 300px;
+  }
+  .enroll-btn {
+    text-align: center;
+    position: relative;
+    top: 420px;
+  }
+  .enroll-now {
+    margin-top: 60px;
+    margin-bottom: 54px;
+  }
+  footer .footer-headings {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+}
